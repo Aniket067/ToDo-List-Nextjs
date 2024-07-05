@@ -1,7 +1,18 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./*"]
+//     }
+//   }
+// }
+
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"]
+      "@/components/*": ["./app/components/*"],
+      "@/layouts/*": ["./app/layouts/*"]
+      // Add more paths as necessary for other directories
     }
   }
 }
